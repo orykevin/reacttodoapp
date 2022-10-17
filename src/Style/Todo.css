@@ -1,0 +1,44 @@
+.todo {
+  display: flex;
+  width: 360px;
+  background-color: rgb(140, 215, 142);
+  margin: 10px auto 5px auto;
+  height: 80px;
+  border-radius: 10px;
+}
+.todo p {
+  font-size: 24px;
+  margin-right: 40px;
+  width: 195px;
+  margin-left: 20px;
+}
+.check {
+  text-decoration: underline;
+}
+.todo button {
+  width: 40px;
+  height: 40px;
+  margin: 20px 5px 0 0;
+  text-align: center;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+}
+.edit-btn {
+  background-color: rgb(74, 74, 220);
+}
+.delete-btn {
+  background-color: rgb(233, 97, 63);
+  margin: 0;
+}
+.disable-edit {
+  background-color: rgb(140, 140, 224);
+}
+.disable-delete {
+  background-color: rgb(196, 113, 101);
+}
+.todo input {
+  transform: scale(2);
+}
